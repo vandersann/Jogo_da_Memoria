@@ -1,5 +1,5 @@
 <p align="center">
-  <img witdh="300" src="https://user-images.githubusercontent.com/65673565/194942025-16749fdf-5323-48f6-a937-f684e4c72aeb.svg" alt="logo do projeto Jogo da Memória">
+  <img witdh="300" height="100" src="https://user-images.githubusercontent.com/65673565/194942025-16749fdf-5323-48f6-a937-f684e4c72aeb.svg" alt="logo do projeto Jogo da Memória">
  </p>
 
 
