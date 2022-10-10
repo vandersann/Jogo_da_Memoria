@@ -1,0 +1,121 @@
+main {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-image: url('/img/background/back.png');
+    background-size: cover;
+    background-size: center, center;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 50px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 1.2em;
+    width: 100%;
+    max-width: 800px;
+    padding: 30px;
+    margin: 0 0 30px;
+    border-radius: 5px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 15px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+/* aspect-ratio é utilizado par dar proporção a elementos feitos, formas e principalmente cards, sem especificar necessariamente as dimenssões em pixel. */
+    aspect-ratio: 3/4;
+    width: 100%;
+    border-radius: 5px;
+/* Para manter um card dentro do outro e a impressão de duas faces de um card, a div mãe é relativa e a filha absolute. Usado muito na adição de videos. */
+    position: relative;
+/* A transição foi adicionada em todos os elementos da classe mãe CARD, assim ela gira com dimenssões 3d.*/
+    transition: all 400ms ease;
+    transform-style: preserve-3d;
+    background-color: #ccc;
+
+}
+
+.face {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+/* para manter a imagem em todo card, sem vazar. */
+    background-size: cover;
+    background-position: center;
+    border: 2px solid #39813a;
+    border-radius: 5px;
+    transition: all 400ms ease;
+}
+
+.front {
+/* Para eliminar o efeito espelho da imagem do card e manter ela na posição correta. */
+    transform: rotateY(180deg);
+}
+
+.back {
+/* Com a backface ela esconde a face de trás e mantem a visibilidade da frente, configurando a animação de girar o card. */
+    background-image: url('/img/cards/bg2.png');
+    backface-visibility: hidden;
+}
+
+.reveal-card {
+    transform: rotateY(180deg);
+}
+
+.disabled-card {
+    filter: saturate(0);
+    opacity: 0.5;
+}
+
+.reset {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 20px 0;
+    justify-content:space-around;
+
+}
+
+#refresh {
+    background-color: #B0EC74;
+    outline: 3px outset #7BA84F;
+    border-radius: 8px;
+    color: #333;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px;
+    margin-left: 50px;
+}
+
+.reset__home {
+    background-color: #B0EC74;
+    outline: 3px outset #7BA84F;
+    border-radius: 8px;
+    color: #333;
+    cursor: pointer;
+    font-size: 1.2em;
+    padding: 10px;
+    width: 100%;
+    max-width: 300px
+}
+
+@media(max-width: 375px) {
+    header {
+        padding: 7px;
+        font-size: 1em;
+    }
+}
