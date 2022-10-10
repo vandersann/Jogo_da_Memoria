@@ -22,6 +22,7 @@
 .login__header h1 {
     color: #B0EC74;
     font-size: 1.2em;
+    margin-top: 50px;
 }
 
 .login__input {
@@ -82,4 +83,68 @@ footer ul img {
 
 footer ul a img:hover {
     background-color:#7BA84F;
+}
+
+@media(max-width: 375px) {
+    header {
+        padding: 7px;
+        font-size: 1em;
+    }
+
+    .login__input {
+        max-width: 150px;
+    }
+
+    .login__button {
+        max-width: 150px;
+    }
+}
+
+@media(max-width: 480px) {
+    .login__header h1{
+        margin-top: 20px;
+        font-size: 0.7em;
+    }
+
+    .login__header {
+        margin-bottom: 10px;
+    }
+
+    .login__input {
+        font-size: 0.7em;
+        max-width: 100px;
+        max-height: 20px;
+        padding: 5px;
+    }
+
+    .login__button {
+        max-width: 100px;
+        max-height: 20px;
+        font-size: 0.7em;
+        padding: 3px;
+    }
+
+}
+
+@media(max-width: 800px) {
+    .login__header h1 {
+        color: #B0EC74;
+        font-size: 1.2em;
+        margin-top: 35px;
+        }
+
+    .login__input {
+        font-size: 1em;
+        max-width: 200px;
+        max-height: 30px;
+        padding: 5px;
+    }
+
+    .login__button {
+        max-width: 200px;
+        max-height: 30px;
+        font-size: 1em;
+        padding: 3px;
+    }
+
 }
