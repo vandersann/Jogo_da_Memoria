@@ -6,8 +6,7 @@
 
 
 -------
-> A premissa desse jogo da memória é simples, um contador na parte superior da tela é inicando aqui que você aperta o play, você precisa virar as cartas e encontrar seus pares no menor tempo possível.<br>
-> O jogo possui efeitos sonoros ao virar as cartas, ao acertar os pares e ao terminar o jogo  <br>
+> A premissa desse jogo da memória é simples, um contador na parte superior da tela é inicando aqui que você aperta o play, você precisa virar as cartas e encontrar seus pares no menor tempo possível. O jogo possui efeitos sonoros ao virar as cartas, ao acertar os pares e ao finalizar o jogo.  <br>
 > Projeto construído para fins didáticos, com o objetivo de colocar em prática os conhecimentos de HTML, CSS e JavaScript.
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/vandersann/Jogo_da_Memoria?style=for-the-badge)
@@ -28,7 +27,7 @@
 
 * Toda aplicação foi criada no sitema operacional `Windows 11`
 
-* Conhecimento adquirido com cursos e práticas realizadas com a <a href="https://www.youtube.com/watch?v=NV88N1r2Qkg&t=7s" target="_blank"><kbd>Manual do Dev</kbd></a>.
+* Conhecimento adquirido com cursos e práticas realizadas com o <a href="https://www.youtube.com/watch?v=NV88N1r2Qkg&t=7s" target="_blank"><kbd>Manual do Dev</kbd></a>.
 
 ## :man_technologist: Acessando o projeto
 
