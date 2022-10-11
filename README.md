@@ -30,9 +30,13 @@
 
 ## :man_technologist: Acessando o projeto
 
-Para acessar o projeto é fácil: <a href="https://vandersann.github.io/Jogo_da_Memoria/" target="_blank"><kbd>click aqui</kbd></a> ou aponte seu celular | <img src="/src/apresentacao/qrcode.png" height="125" width="125" alt="apresentacao do site">
+Para acessar o projeto é fácil: <a href="https://vandersann.github.io/Jogo_da_Memoria/" target="_blank"><kbd>click aqui</kbd></a> ou aponte seu celular | <img src="/img/apresentacao/qr.png" height="125" width="125" alt="apresentacao do site">
 :--------- | :---------
 
 ## 📝 Licença
 
 Esse projeto está sob licença. Veja o arquivo <kbd>[MIT](Mit.md)</kbd> para mais detalhes.
+
+<p align="center">
+  <img witdh="300" src="https://user-images.githubusercontent.com/65673565/190916838-46057236-9d6e-4e75-b919-d24f673caec7.svg" alt="logo do criador do projeto")
+ </p>
