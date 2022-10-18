@@ -21,7 +21,7 @@
 
 .login__header h1 {
     color: #B0EC74;
-    font-size: 1.2em;
+    font-size: 1.7em;
     margin-top: 50px;
 }
 
@@ -129,21 +129,21 @@ footer ul a img:hover {
 @media(max-width: 800px) {
     .login__header h1 {
         color: #B0EC74;
-        font-size: 1.2em;
-        margin-top: 35px;
+        font-size: 0.8em;
+        margin-top: 16px;
         }
 
     .login__input {
-        font-size: 1em;
-        max-width: 200px;
-        max-height: 30px;
+        font-size: 0.7em;
+        max-width: 100px;
+        max-height: 20px;
         padding: 5px;
     }
 
     .login__button {
-        max-width: 200px;
-        max-height: 30px;
-        font-size: 1em;
+        max-width: 100px;
+        max-height: 20px;
+        font-size: 0.7em;
         padding: 3px;
     }
 
