@@ -11,7 +11,7 @@
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/vandersann/Jogo_da_Memoria?style=for-the-badge)
 ![GitHub language count](https://img.shields.io/github/languages/count/vandersann/Jogo_da_Memoria?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/iuricode/Jogo_da_Memoria?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/vandersann/Jogo_da_Memoria?style=for-the-badge)
 
 <p align="center">
 <img  width="800" src="/img/apresentacao/apresentacao.gif" alt="apresentacao do site">
