@@ -30,7 +30,7 @@
 
 ## :man_technologist: Acessando o projeto
 
-Para acessar o projeto é fácil: <a https://rad-beignet-9479e7.netlify.app" target="_blank"><kbd>click aqui</kbd></a> ou aponte seu celular | <img src="/img/apresentacao/qr.png" height="125" width="125" alt="apresentacao do site">
+Para acessar o projeto é fácil: <a href="https://rad-beignet-9479e7.netlify.app" target="_blank"><kbd>click aqui</kbd></a> ou aponte seu celular | <img src="/img/apresentacao/qr.png" height="125" width="125" alt="apresentacao do site">
 :--------- | :---------
 
 ## 📝 Licença
